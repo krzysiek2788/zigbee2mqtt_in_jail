@@ -10,17 +10,17 @@ Guide to run mosquitto:
   Than execute this command:
   mosquitto_passwd -c /usr/local/etc/mosquitto/pwfile [user_name]
 2. Now edit mosquitto.conf file:
-    persistence false
-		listener 1883
-		allow_anonymous false
-		protocol mqtt
-		password_file /usr/local/etc/mosquitto/pwfile
+	persistence false
+	listener 1883
+	allow_anonymous false
+	protocol mqtt
+	password_file /usr/local/etc/mosquitto/pwfile
 3. Restart mosquitto service:
   service mosquitto restart
   
 Guide to install zigbee2mqtt:
 1. Install all step by step
-  pkg install screen
+	pkg install screen
 	pkg install node
 	pkg install npm
 	pkg install git
