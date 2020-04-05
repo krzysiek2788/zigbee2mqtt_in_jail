@@ -71,11 +71,12 @@ stop_postcmd()
 }
 
 run_rc_command "$1"
+
 -----------
 3. Save file and execute command: chmod +x /etc/rc.d/zigbee2mqtt
 4. Run command: service zigbee2mqtt start
 
-  To watch what is going on zigbee2mqtt:
-  screen -x
-  To exit from watching without closing session:
-  CTRL+a and click d
+To watch what is going on zigbee2mqtt:
+screen -x
+To exit from watching without closing session:
+CTRL+a and click d
